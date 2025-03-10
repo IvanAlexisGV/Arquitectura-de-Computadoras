@@ -7,7 +7,7 @@ initial begin
     $readmemb("datos", almacenamiento);
 end
 
-reg [3:0] almacenamiento [0:15];
+    reg [31:0] almacenamiento [0:15];
 
 always @ * begin
     begin
