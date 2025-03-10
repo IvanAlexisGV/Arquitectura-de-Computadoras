@@ -5,7 +5,7 @@ module BancoRAM(
     output reg [31:0] salidaDatos
 );
 
-reg [3:0] almacenamiento [0:15];
+    reg [31:0] almacenamiento [0:15];
 
 always @ * begin
     if(habilitarEscritura) begin
